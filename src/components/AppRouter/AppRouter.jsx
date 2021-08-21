@@ -15,7 +15,7 @@ const AppRouter = () => {
 
     // перевірка на те чи програма ініціалізувалася
     if(isLoading) {
-        return <Loader/>;
+        return <Loader/>
     }
 
     return (
