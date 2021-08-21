@@ -1,0 +1,25 @@
+.paginator {
+    display: flex;
+    justify-content: center;
+}
+
+.paginator_btn {
+    color: #000000;
+    border-color: #000000;
+    margin-right: 10px;
+    transform: scale(0.7);
+}
+
+.paginator_btn:hover {
+    background-color: #000000;
+}
+
+.paginator_btn.active {
+    font-weight: bold;
+    color: #cb6617;
+    border: 2px solid #cb6617;
+}
+
+.paginator_btn.active:hover {
+    background-color: transparent;
+}

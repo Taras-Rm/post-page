@@ -1,0 +1,13 @@
+.create_post {
+    /*margin-bottom: 40px;*/
+}
+
+.create_post_btn {
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.create_post_inp {
+    margin-bottom: 20px;
+    display: block;
+}

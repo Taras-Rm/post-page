@@ -1,0 +1,19 @@
+.postTitle {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.postBody {
+    margin-bottom: 35px;
+    font-size: 20px;
+}
+
+.postBody span {
+    border-bottom: 1px solid #000000;
+}
+
+.postCommentsTitle {
+    text-align: left;
+    font-size: 25px;
+    margin-bottom: 20px;
+}

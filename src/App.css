@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F0F4F9;
+}
+
+.App {
+  width: 1296px;
+  margin: 0 auto 40px auto;
+}
+
+h2 {
+  font-family: Roboto, sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  text-align: center;
+
+  margin-bottom: 40px;
+}
+
+hr {
+  border: 1px solid #000000;
+  background-color: #000000;
+  margin-bottom: 40px;
+}
+
+.withoutPosts {
+  text-align: center;
+  font-size: 30px;
+}
+
+.navbar {
+  margin-bottom: 30px;
+}
+
+
+
+.post-enter {
+  opacity: 1;
+  transform: translateX(-300px);
+}
+.post-enter-active {
+  transform: translateX(0px);
+  transition: all 500ms ease-in;
+}
+.post-exit {
+  opacity: 1;
+
+}
+.post-exit-active {
+  transform: translateX(-300px);
+  transition: all 500ms ease-in;
+}
+
+
+
+
+.paginator {
+  margin-top: 20px;
+}

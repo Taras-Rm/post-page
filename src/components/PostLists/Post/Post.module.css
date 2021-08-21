@@ -1,0 +1,37 @@
+.post {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border: 2px solid #5421E4;
+    padding: 25px 38px;
+
+    margin-bottom: 50px;
+}
+
+.post_content {
+    max-width: 1008px;
+}
+
+.post_title, .post_text {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 37px;
+    line-height: 26px;
+}
+
+.post_title {
+    margin-bottom: 20px;
+}
+
+.post_text {
+    font-weight: normal;
+    text-align: left;
+    font-size: 16px;
+}
+
+.btn {
+    margin-left: 10px;
+}
